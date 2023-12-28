@@ -11,6 +11,20 @@
   <style type="text/css">  </style>
 </head>
 <body><div id="gallery">
+ #gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+ #gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
   
    <img src="images/deerpic.png">
    <img src="images/image-002.jpg">
